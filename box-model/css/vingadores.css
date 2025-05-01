@@ -1,0 +1,48 @@
+.hero-container {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-box {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #eee;
+    text-align: center;
+    border-radius: 15px;
+    border-bottom-width: 10px;
+    border-color: #0a74da;
+    border-style: solid;
+    box-shadow: 10px 10px 20px #000;
+}
+
+.hero-box img {
+    width: 250px;
+    height:200px;
+}
+
+.box-background{
+    background-color: #000;
+}
+
+#capitao-america {
+    color: #00f;
+    border-color: #00f;
+}
+#homem-de-ferro {
+    color: #f00;
+    border-color: #f00;
+}
+#thor {
+    color: orange;
+    border-color: orange;
+}
+
+#title {
+    color: #0a74da;
+    text-align: center;
+}
+
+#p {
+    font-size: 150%;
+    font-variant: small-caps;
+}
