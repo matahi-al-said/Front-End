@@ -1,6 +1,10 @@
-function soma(a, b) {
-    return a + b;
-}
+function aparecerTexto() {
+    const info = document.querySelector("#info");
 
-console.log(soma(1,1))
-console.log(soma(2,2))
+    if (info.style.display === 'none'){
+        info.style.display = "block";
+    } else {
+        info.style.display = "none";
+    }
+}
+document.querySelector("#toggle").addEventListener('click', aparecerTexto);
