@@ -1,10 +1,6 @@
-document.getElementById("toggle").addEventListener('click', function() {
-    const info = document.getElementById("info");
+function soma(a, b) {
+    return a + b;
+}
 
-    if (info.style.display === 'none'){
-        info.style.display = "block";
-    } else {
-        info.style.display = "none";
-    }
-    
-});
+console.log(soma(1,1))
+console.log(soma(2,2))
